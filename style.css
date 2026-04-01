@@ -1,26 +1,76 @@
+/*Calculadora Simples - Estilo CSS*/
 body {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background-color: #ffbfdf;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    margin-top: 50px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 input {
-    padding: 10px;
-    margin: 5px;
-    width: 200px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 button {
-    padding: 10px 15px;
-    margin: 5px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #d1d1d1;
+}
+
+button.operador {
+    background-color: #d6d6d6;
+}
+
+button.igual {
+    background-color: #0078d7;
+    color: white;
+    grid-column: span 2;
+}
+
+button.igual:hover {
+    background-color: #005fa3;
 }
 
 #resultado {
-    margin-top: 20px;
-    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: right;
 }

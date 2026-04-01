@@ -60,3 +60,10 @@ function dividir() {
     let resultado = valores.num1 / valores.num2;
     mostrarResultado(resultado);
 }
+function porcentagem() {
+    let num1 = parseFloat(document.getElementById("num1").value);
+    let num2 = parseFloat(document.getElementById("num2").value);
+
+    let resultado = (num1 * num2) / 100;
+    mostrarResultado(resultado);
+}

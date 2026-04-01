@@ -1,28 +1,34 @@
+<!-- Calculadora Simples -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <title>Calculadora Simples</title>
+    <title>Calculadora Velox</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Calculadora Velox</h1>
-
     <div class="container">
-        <input type="text" id="num1" placeholder="Digite o primeiro número">
-        <input type="text" id="num2" placeholder="Digite o segundo número">
+
+        <h1>Calculadora</h1>
+
+        <input type="number" id="num1" placeholder="Digite o primeiro número">
+        <input type="number" id="num2" placeholder="Digite o segundo número">
 
         <div class="botoes">
             <button onclick="somar()">+</button>
             <button onclick="subtrair()">-</button>
             <button onclick="multiplicar()">*</button>
             <button onclick="dividir()">/</button>
+            <button onclick="porcentagem()">%</button>
+            <p id="resultado">Resultado: </p>
         </div>
 
-        <p id="resultado">Resultado: </p>
     </div>
 
     <script src="calcularadora.js"></script>
 </body>
+
 </html>
