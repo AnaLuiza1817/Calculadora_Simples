@@ -1,8 +1,8 @@
 /*Calculadora Simples - Estilo CSS*/
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff7eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: #ffffff;
+    background: #fffdde;
     padding: 20px;
     border-radius: 15px;
     width: 260px;
@@ -31,7 +31,7 @@ input {
     text-align: right;
     padding: 5px;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #fff1a1;
     outline: none;
 }
 
@@ -46,7 +46,7 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 10px;
-    background-color: #e0e0e0;
+    background-color: #fff67d;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -56,7 +56,7 @@ button:hover {
 }
 
 button.operador {
-    background-color: #d6d6d6;
+    background-color: #ffe96a;
 }
 
 button.igual {
@@ -70,7 +70,6 @@ button.igual:hover {
 }
 
 #resultado {
-    margin-top: 15px;
-    font-size: 18px;
-    text-align: right;
+    margin-left: 20px;
+    font-size: 22px;
 }
