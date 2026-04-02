@@ -1,7 +1,7 @@
 /*Calculadora Simples - Estilo CSS*/
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff7eb;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     width: 260px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
